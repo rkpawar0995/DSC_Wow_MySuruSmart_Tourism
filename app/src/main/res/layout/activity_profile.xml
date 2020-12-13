@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ProfileActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/profileimagebackground"
+                >
+            </ImageView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="ACCOUNT SETTINGS">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Per_info"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Personal information">
+            </TextView>
+            <TextView
+                android:id="@+id/Notification"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Notifications">
+            </TextView>
+            <TextView
+                android:id="@+id/Travel"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Travel for work">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="SUPPORT">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Cyborgs"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="How Cyborgs works">
+            </TextView>
+            <TextView
+                android:id="@+id/Sefety"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Safety Centre">
+            </TextView>
+            <TextView
+                android:id="@+id/Help"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Get help">
+            </TextView>
+            <TextView
+                android:id="@+id/Feedback"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Give us feedback">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="LEGAL">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/T_C"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Terms of Service">
+            </TextView>
+            <TextView
+                android:id="@+id/Prav_setting"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Privacy settings">
+            </TextView>
+            <TextView
+                android:id="@+id/Log_out"
+                android:padding="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#333131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Log out">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

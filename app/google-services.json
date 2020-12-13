@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931703935991",
+    "project_id": "dsc-hack",
+    "storage_bucket": "dsc-hack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931703935991:android:ba04167442fc8bbafed4f2",
+        "android_client_info": {
+          "package_name": "xyz.rkplap.dschack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931703935991-sj8lvu4gih27pcv55dvnqjusbgrmktsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB20a2OckM3OkCEb77BqB0T4mAOtGwo2mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931703935991-sj8lvu4gih27pcv55dvnqjusbgrmktsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

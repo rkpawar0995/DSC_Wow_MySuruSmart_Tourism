@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Explore"
+          android:icon="@drawable/two"
+          android:id="@+id/explore">
+        </item>
+    <item android:title="Saved"
+          android:id="@+id/save"
+        android:icon="@drawable/one">
+    </item>
+
+    <item android:title="Trips"
+          android:id="@+id/trip"
+        android:icon="@drawable/four">
+    </item>
+    <item
+        android:title="Inbox"
+        android:id="@+id/inbox"
+        android:icon="@drawable/inbox">
+    </item>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/three"
+        android:id="@+id/profile">
+    </item>
+</menu>
